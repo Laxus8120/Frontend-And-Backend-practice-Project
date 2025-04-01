@@ -1,4 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
 
+*, *::after, *::before {
+    box-sizing: inherit;
+}
 
 .contact{
     margin-right: 15px;
@@ -31,4 +41,20 @@ nav{
 
 li:last-child{
     margin-right: 5px;
+}
+
+.foot a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+}
+
+
+.CenterBlock {
+    flex: 1; /* This makes the login box section take up remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

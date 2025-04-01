@@ -13,23 +13,15 @@
     <!-- navBar -->
     <section class="nav">
         <nav>
-            <ul>
-                <li><a href="#logo"><img src="image copy.png" alt=""></a></li>
-                <div class="d-flex align-items-center ">
-                    <li class="contact"><a href="#phone"><img src="phoneNo.png" alt=""></a>8400015749</li>
-                    <li class="contact"><a href="#phone"><img src="mail.png" alt="">gauravHacker786@caa.com</a></li>
-                    <li class="contact"><a href="#login"><button type="button" class="btn btn-outline-primary pt-0 pb-0 ">Login</button></a></li>
-                </div>
-            </ul>
         </nav>
     </section>
     <div class="b-example-divider"></div>
 
     <!-- loginBox -->
 <!-- Section: Design Block -->
-<section class="background-radial-gradient overflow-hidden">  
+<section class=" CenterBlock background-radial-gradient overflow-hidden">  
     <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
-      <div class="row gx-lg-5 align-items-center mb-5">
+      <div class="row gx-lg-5 d-flex flex-nowrap `xalign-items-center mb-5">
         <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
           <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
             The best offer <br />
@@ -47,23 +39,7 @@
   
           <div class="card bg-glass">
             <div class="card-body px-4 py-5 px-md-5">
-              <form>
-                <!-- 2 column grid layout with text inputs for the first and last names -->
-                <div class="row">
-                  <div class="col-md-6 mb-2">
-                    <div data-mdb-input-init class="form-outline">
-                      <input type="text" id="Name" class="form-control" placeholder="Name"/>
-                      <label class="form-label" for="firstName"></label>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-2">
-                    <div data-mdb-input-init class="form-outline">
-                      <input type="text" id="PhoneNo" class="form-control" placeholder="Phone no"/>
-                      <label class="form-label" for="form3Example2"></label>
-                    </div>
-                  </div>
-                </div>
-  
+              <form>  
                 <!-- Email input -->
                 <div data-mdb-input-init class="form-outline mb-2">
                   <input type="email" id="Email" class="form-control" placeholder="Email"/>
@@ -75,10 +51,22 @@
                   <input type="password" id="Password" class="form-control" placeholder="Password"/>
                   <label class="form-label" for="form3Example4">   </label>
                 </div>
-  
+                <!--Forgot Password-->
+                <div style=" margin-bottom: 10px;">
+                  <a href="" style="text-decoration: none; font-weight:bolder;">Forgot Password?</a>
+                </div>
                 <!-- Submit button -->
-                <div class="submit">
-                        <a href="" style=" color: white; text-decoration: none;" id="signInButton" class="btn btn-primary btn-block mb-4 submitButton">Sign Up</a>
+                <div class="submit text-center">
+                        <a href="" style=" color: white; text-decoration: none; width: 100%;" id="signInButton" class="btn btn-primary btn-block mb-4 submitButton">Sign In</a>
+                </div>
+
+                <!--Term and coding warning-->
+                <div class="Desclaimer text-center mb-2">
+                  <p>By Signing In you Agree to the Term Of User Privacy Policy. All Unautorised Access or Access Attempts are Strictly Prohibited</p>
+                </div>
+                <!-- User Registration-->
+                <div class="text-center" style=" margin-bottom: 10px;">
+                  <a href="" style="text-decoration: none; font-weight:bolder;">User Registration?</a>
                 </div>
               </form>
             </div>
@@ -91,42 +79,11 @@
   <div class="b-example-divider"></div>
 
   <!-- footer -->
-   <section>
-    <div class="container">
-      <footer class="py-5">
-        <div class="row d-flex justify-content-between">
-          <div class="col-6 col-md-2 mb-3">
-            <h5 class="text-center">Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-          </div>
-          <div class="col-md-5 offset-md-1 mb-3 ">
-            <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of what's new and exciting from us.</p>
-              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">Email address</label>
-                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                <button class="btn btn-primary" type="button">Subscribe</button>
-              </div>
-            </form>
-          </div>
-        </div>
-    
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-          </ul>
-        </div>
-      </footer>
+   <section class="footer ">
+    <div class="d-flex flex-row-reverse">
+      <div class="foot p-2"><a href="">Contact us</a></div>
+      <div class="foot p-2"><a href="">Privacy Policy</a></div>
+      <div class="foot p-2"><a href="">Tems And Use</a></div>
     </div>
    </section>
 </body>
