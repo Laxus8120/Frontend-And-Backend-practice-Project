@@ -1,0 +1,35 @@
+.contact{
+    margin-right: 15px;
+}
+
+ul div{
+    display: flex;
+}
+
+.infoBox img{
+    width: 500px;
+    height: 100px;
+}
+
+.box{
+    margin-right: 5px;
+}
+.companyLogo {
+    width: 100%;
+    height: 600px;
+}
+.companyLogo img{
+    width: 100%;
+    height: 100%;
+}
+.companyHistroy{
+    text-align: center;
+}
+h2{
+    letter-spacing: .5rem;    
+}
+
+.histroy :first-child   {
+    width: 900px;
+    height: 400px;
+}
